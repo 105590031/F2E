@@ -1,0 +1,119 @@
+body {
+    width: 1260px;
+    height: 940px;
+    background: #EDF2C5;
+    margin: 0 auto;
+}
+.contain {
+    max-width: 940px;
+	max-height: 1260px;
+	margin-left: auto;
+    margin-right: auto;
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.vegetables {
+    flex: 100;
+    height: 42px;
+	width: 271px;
+    font-size: 3em;
+    font-family: Arial Black ,Helvetica, sans-serif;
+    color: #778a50;
+    float: left;
+}
+.fb_ig {
+	margin-left: 10px;
+}
+.line  {
+    margin-left: 10px;
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+}
+.loginbox{
+    margin-left: 10px;
+	border: #778a50 1px solid;
+    border-radius: 3px;
+    padding: 3px;
+    color: #778a50;
+}
+
+.joinbox{
+    margin-left: 10px;
+	border: #778a50 1px solid;
+    border-radius: 3px;
+    padding: 3px;
+    color: #778a50;
+}
+
+a {
+    text-decoration:none;
+}
+
+.nav {
+    display: flex;
+    background-color: #778a50;
+}
+
+.nav_btn {
+    margin: 16px 30px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    color: #edf2c5;
+}
+.img_pumpkin {
+    height: 448px;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+.detail {
+    display: flex;
+    margin-top: 30px;
+
+}
+.vegetables_title, .contact_title {
+    padding: 15px 30px;
+    background-color: #778a50;
+    font-family: Arial;
+    color: #edf2c5;
+}
+.vegetables_img {
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+.vegetables_info {
+    flex: 1;
+    margin-right: 80px;
+}
+.contact_text {
+    padding: 15px;
+    line-height: 1.33;
+    font-size: 12px;
+    margin-top: 15px;
+    font-family: Arial;
+    color: #778a50;
+    background-color: #f7fbda;
+}
+.img_size {
+    width: 150px;
+    height: 150px;
+    padding-right: 10px;
+}
+.footer {
+    padding: 24px 479px 25px 479px;
+	background-color: #778A50;
+	color: #EDF2C5;
+	font-family: Arial;
+	font-size: 12px;
+	text-align: center;
+}
+.contact {
+    margin-left: 5px;
+    flex: 1;
+}
